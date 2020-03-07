@@ -1,0 +1,34 @@
+$primary:#3292a6;
+$primary-overlay:rgba(50,146,166,0.8);
+
+body{
+      margin-top: 150;
+}
+.navbar{
+      box-shadow: 2px 2px 5px $primary;
+      opacity: .9;
+      background: #fff;
+      .nav-item{
+            font-size: 1.2rem ;
+            font-weight: bold;
+      }
+ }
+ #showcase{
+      position: relative;
+      
+      background:url("/src/img/mountains.jpg");
+      background-size: cover;
+      min-height: 600px;
+      
+      .primary-overlay{
+            background: $primary-overlay;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width:100%;
+            height: 100%;
+            
+           
+      
+      }
+      }
